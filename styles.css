@@ -1,0 +1,16 @@
+.navigation {
+  width: 1440.27px;
+  height: 60px;
+  flex-shrink: 0; }
+
+.logo {
+  width: 30px;
+  height: 30px; }
+
+.logo-container {
+  display: inline-flex;
+  padding: 0px 94.27px 0px 15px;
+  align-items: center;
+  gap: 10px; }
+
+/*# sourceMappingURL=styles.css.map */
