@@ -13,4 +13,12 @@
   align-items: center;
   gap: 10px; }
 
+.search-input {
+  width: 450px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid #000;
+  background: #FEFEFE; }
+
 /*# sourceMappingURL=styles.css.map */

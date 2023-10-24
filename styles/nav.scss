@@ -1,3 +1,5 @@
+//NAV
+
 .navigation {
     width: 1440.27px;
     height: 60px;
@@ -14,4 +16,16 @@
     padding: 0px 94.27px 0px 15px;
     align-items: center;
     gap: 10px; 
+}
+
+
+.search-input {
+    width: 450px;
+    height: 40px;
+    flex-shrink: 0; 
+    border-radius: 5px;
+    border: 1px solid #000;
+    background: #FEFEFE; 
+
+    
 }
