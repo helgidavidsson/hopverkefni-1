@@ -21,4 +21,36 @@
   border: 1px solid #000;
   background: #FEFEFE; }
 
+.content {
+  height: 520px;
+  flex-shrink: 0;
+  align-self: stretch; }
+
+.content-title {
+  color: #000;
+  font-family: Lato;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; }
+
+.content-paragraph {
+  width: 448px; }
+
+.content-button {
+  border-radius: 5px;
+  border: 1px solid #3C2A1E;
+  background: #6F4E37;
+  display: flex;
+  padding: 10px 15px;
+  align-items: flex-start;
+  gap: 10px;
+  color: #FFF;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  /* 171.429% */ }
+
 /*# sourceMappingURL=styles.css.map */
