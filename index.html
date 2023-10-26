@@ -1,39 +1,94 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./styles.css">
-        <title>Document</title>
-    </head>
-    <body>
-        <nav class="navigation">
-            <div class="logo-container">
-                <img src="./assets/Logo.png" alt="logo">
-                <h1 class="title">Tæknibúðin</h1>
-            </div>
-            <div class="search">
-                <div class="search-input">
-                    <input type="text" class="text" placeholder="Leit eftir heiti, vörunúmeri, lýsingu o.fl.">
-                    <img src="./assets/Vector.png" alt="vector">
-                </div>
-            </div>
-            <ul class="categories">
-                <li class="text">
-                    Nýjar vörur
-                </li>
-                <li class="text">
-                    Tilboðs vörur
-                </li>
-                <li class="text">
-                    Allar vörur
-                </li>
+
+<html lang="is">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TækniBúðin</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="./assets/Logo.svg" alt="TækniBúðin Logo">
+        <h1>TækniBúðin</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Nýjar vörur</a></li>
+                <li><a href="#">Tilboðsvörur</a></li>
+                <li><a href="#">Allar vörur</a></li>
             </ul>
-            <div class="cart">
-                <img src="./assets/Cart icon.png" alt="carticon">
-                <div class="text">1</div>
-            </div>
         </nav>
-    </body>
+        <input type="search" placeholder="Leit eftir hér...">
+    </header>
+
+    <section class="promo">
+        <h1>Tilboðsvika</h1>
+        <p>Keyptu graejunar hjá okkur!</p>
+    </section>
+
+    <section class="new-products">
+        <h2>Nýjar vörur í hverri viku</h2>
+        <p>Via fljóðum með nýjar vörur til landsins í hverri viku og bjóðum upp á frábært verð</p>
+        <a href="#">Skoda Nýjar Vörur</a>
+    </section>
+
+    <section class="featured-products">
+        <h2>Nokkrar af nýjustu vörurum okkar</h2>
+        <!-- Repeated for each product -->
+        <div class="product">
+            <img src="product-image.jpg" alt="Product Name">
+            <h3>Product Name</h3>
+            <p>Price</p>
+            <a href="#">Setja í körfu</a>
+        </div>
+        <!-- ... -->
+    </section>
+
+    <section class="warehouse-info">
+        <h2>Stærsta vöruhús á Íslandi</h2>
+        <p>Vöruhúsið okkar er það stærsta á Íslandi og með fullt af vörum</p>
+        <a href="#">Skoda Allar Vörur</a>
+    </section>
+
+    <section class="special-selection">
+        <h2>Nokkur dæmi úr ótrúlegu vörúúrvali okkar</h2>
+        <!-- Repeated for each product -->
+        <div class="product">
+            <img src="product-image.jpg" alt="Product Name">
+            <h3>Product Name</h3>
+            <p>Price</p>
+            <a href="#">Setja í körfu</a>
+        </div>
+        <!-- ... -->
+    </section>
+
+    <footer>
+        <section class="opening-hours">
+            <h3>Opnunartími</h3>
+            <p>Opid alla virka daga frá 9:00-18:00</p>
+            <p>Opid a laugardögum frá 12:00-16:00</p>
+            <p>Lokað á sunnudögum</p>
+        </section>
+
+        <section class="contact">
+            <h3>Hafðu Samband</h3>
+            <p>Sími: 234-4568</p>
+            <p>Tölvupóstur: thjonusta@example.org</p>
+        </section>
+
+        <section class="other">
+            <h3>Annað</h3>
+            <ul>
+                <li><a href="#">Rekja sendingu</a></li>
+                <li><a href="#">Skilmálar</a></li>
+                <li><a href="#">Um okkur</a></li>
+                <li><a href="#">Störf</a></li>
+            </ul>
+        </section>
+
+        <section class="copyright">
+            <p>© 2021 TækniBúðin – Allur réttur áskilinn</p>
+        </section>
+    </footer>
+</body>
 </html>
